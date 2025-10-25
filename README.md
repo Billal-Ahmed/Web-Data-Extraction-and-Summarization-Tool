@@ -55,21 +55,21 @@ The system consists of three main modules:
 | **Deployment** | Docker / Virtual Environment |
 
 ---
-# Option 1: Using Virtural Env
+## Option 1: Using Virtural Env
 <code>
-# Create a virtual environment
+### Create a virtual environment
 python3 -m venv venv
 
-# Activate it
-# On Linux/macOS:
+### Activate it
+### On Linux/macOS:
 source venv/bin/activate
 
-# On Windows:
+### On Windows:
 venv\Scripts\activate
 
 pip install -r requirements.txt
 GROQ_API_KEY=your_groq_api_key_here
 streamlit run app.py
 </code>
-# Option 2: Using Docker
+## Option 2: Using Docker
 
