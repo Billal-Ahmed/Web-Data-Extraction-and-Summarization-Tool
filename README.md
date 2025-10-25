@@ -47,7 +47,7 @@ The system consists of three main modules:
 
 | Component | Technology Used |
 |------------|----------------|
-| **Frontend / UI** | Streamlit|
+| **Frontend / UI** | Streamlit, HTML, CSS, JS |
 | **Backend Logic** | Python |
 | **Libraries** | BeautifulSoup4, Selenium, LXML, HTML5lib |
 | **Summarization** | LLaMA / OpenAI OSS model via Groq API |
@@ -55,16 +55,4 @@ The system consists of three main modules:
 | **Deployment** | Docker / Virtual Environment |
 
 ---
-## Option 1: Using Virtural Env
-<code>### Create a virtual environment
-python3 -m venv venv
-### Activate it, On Linux/macOS:
-source venv/bin/activate
-### Activate it, On Windows:
-venv\Scripts\activate
-pip install -r requirements.txt
-GROQ_API_KEY="your_groq_api_key_here"
-streamlit run app.py
-</code>
-## Option 2: Using Docker
 
