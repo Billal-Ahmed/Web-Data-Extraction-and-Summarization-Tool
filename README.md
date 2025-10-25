@@ -80,17 +80,134 @@ You can set up the project in **two ways**:
 git clone https://github.com/<your-username>/web-data-extraction-summarization.git
 cd web-data-extraction-summarization
 
+2. Create and Activate a Virtual Environment
+# Create a virtual environment
+python3 -m venv venv
 
+# Activate it
+# On Linux/macOS:
+source venv/bin/activate
+
+# On Windows:
+venv\Scripts\activate
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Configure Environment Variables
+
+Create a file named .env in the project root:
+
+GROQ_API_KEY=your_groq_api_key_here
+
+5. Run the Application
+streamlit run app.py
+
+
+Then open your browser at:
+👉 http://localhost:8501
+
+🐳 Option 2: Using Docker
+1. Build Docker Image
+docker build -t wdest-app .
+
+2. Run the Container
+docker run -d -p 8501:8501 --env-file .env wdest-app
+
+3. Access the Application
+
+Open your browser at:
+👉 http://localhost:8501
+
+📜 Example .env File
+# Environment configuration
+GROQ_API_KEY=your_groq_api_key_here
+
+requirements.txt
+streamlit
+selenium
+beautifulsoup4
+lxml
+html5lib
+python-dotenv
+groq
+
+Dockerfile
+# Use an official lightweight Python image
+FROM python:3.10-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy files
+COPY . /app
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expose Streamlit port
+EXPOSE 8501
+
+# Run Streamlit app
+CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+
+docker-compose.yml
+version: "3.8"
+services:
+  wdest:
+    build: .
+    container_name: wdest_container
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+
+🧪 Testing
+
+Unit Testing: Test each module (scraper, summarizer) independently.
+
+Integration Testing: Ensure modules work together.
+
+System Testing: Test using real-world URLs.
+
+User Acceptance Testing (UAT): Verify with different content and user scenarios.
+
+🖥️ Hardware Requirements
+
+Minimum 4 GB RAM
+
+Stable internet connection (≥ 50 kbps)
+
+Modern web browser for UI
+
+👥 Team Members
+Name	Reg. No	Role
+Muhammad Imran	2022-UOBSAC-194	Team Leader
+Zeeshan Abbas	2022-UOBSAC-210	Developer
+
+Supervisor: Mr. Manzoor Hussain
+Department: Computer Science, Government Degree College Skardu
+Affiliation: University of Baltistan Skardu
+
+📚 References
+
+Groq API Docs
+
+Selenium Documentation
+
+BeautifulSoup Docs
+
+Streamlit Documentation
+
+📄 License
+
+This project is licensed under the MIT License — you’re free to use, modify, and distribute it.
+
+🌟 Acknowledgements
+
+Special thanks to our supervisor Mr. Manzoor Hussain for his guidance,
+and to the University of Baltistan Skardu for academic and technical support.
 
 
 
 ```
----
-
-✅ **Ready to use:**  
-You can now copy-paste this into a `README.md` file — GitHub will render all sections (headers, tables, and code blocks) perfectly.  
-
-Would you like me to add **optional screenshots / example output** placeholders (like `/assets/screenshot1.png`) right before the “Testing” section? That can make it visually appealing for your repo’s landing page.
-
-
-
