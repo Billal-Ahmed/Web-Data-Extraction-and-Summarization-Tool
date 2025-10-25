@@ -81,3 +81,16 @@ git clone https://github.com/<your-username>/web-data-extraction-summarization.g
 cd web-data-extraction-summarization
 
 
+
+
+
+
+---
+
+✅ **Ready to use:**  
+You can now copy-paste this into a `README.md` file — GitHub will render all sections (headers, tables, and code blocks) perfectly.  
+
+Would you like me to add **optional screenshots / example output** placeholders (like `/assets/screenshot1.png`) right before the “Testing” section? That can make it visually appealing for your repo’s landing page.
+
+
+
