@@ -56,10 +56,8 @@ The system consists of three main modules:
 
 ---
 ## Option 1: Using Virtural Env
-<code>
-### Create a virtual environment
+<code>### Create a virtual environment
 python3 -m venv venv
-
 ### Activate it, On Linux/macOS:
 source venv/bin/activate
 ### Activate it, On Windows:
