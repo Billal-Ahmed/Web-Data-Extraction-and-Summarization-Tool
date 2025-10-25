@@ -56,15 +56,15 @@ The system consists of three main modules:
 
 ---
 ## 🧩 Project Structure
-| **app.py** | Main Streamlit Application
-| **scraper.py** | Handles web scraping logic
-| **summarizer.py** | Handles summarization using Groq API
-| **requirements.txt** | Python dependencies
-| **.env.example** | Example environment file
-| **Dockerfile** | Docker image setup
-| **docker-compose.yml** | Docker service configuration
-| **README.md** | Project documentation
-| **assets/** | (Optional) UI assets like logos or icons
+| **app.py** | Main Streamlit Application |
+| **scraper.py** | Handles web scraping logic |
+| **summarizer.py** | Handles summarization using Groq API |
+| **requirements.txt** | Python dependencies |
+| **.env.example** | Example environment file |
+| **Dockerfile** | Docker image setup |
+| **docker-compose.yml** | Docker service configuration |
+| **README.md** | Project documentation |
+| **assets/** | (Optional) UI assets like logos or icons |
 ---
 
 ## 🪄 Installation & Setup
