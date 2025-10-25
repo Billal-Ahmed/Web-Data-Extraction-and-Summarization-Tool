@@ -7,10 +7,10 @@ It allows users to input a web URL, automatically extract the main readable cont
 This tool helps students, researchers, and professionals quickly gain insights from long web pages, saving both time and effort.
 
 # Key Features
-🌐 <b>Automatic Web Content Extraction</b> – Extracts readable data from public web pages using Selenium and BeautifulSoup.
+<b>Automatic Web Content Extraction</b> – Extracts readable data from public web pages using Selenium and BeautifulSoup.
 
-🤖 AI-Powered Summarization – Summarizes long texts using OpenAI OSS models hosted on Groq.
+<b>AI-Powered Summarization</b> – Summarizes long texts using OpenAI OSS models hosted on Groq.
 
-🪶 Simple and Interactive UI – Built with Streamlit, HTML, CSS, and JavaScript for an intuitive user experience.
+<b>Simple and Interactive UI</b> – Built with Streamlit, HTML, CSS, and JavaScript for an intuitive user experience.
 
-🔐 Secure Configuration – Uses dotenv for safe handling of API keys and configuration files.
+ <b>Secure Configuration</b> – Uses dotenv for safe handling of API keys and configuration files.
