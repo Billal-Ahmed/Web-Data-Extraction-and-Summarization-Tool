@@ -55,4 +55,29 @@ The system consists of three main modules:
 | **Deployment** | Docker / Virtual Environment |
 
 ---
+## 🧩 Project Structure
+├── app.py # Main Streamlit Application
+├── scraper.py # Handles web scraping logic
+├── summarizer.py # Handles summarization using Groq API
+├── requirements.txt # Python dependencies
+├── .env.example # Example environment file
+├── Dockerfile # Docker image setup
+├── docker-compose.yml # Docker service configuration
+├── README.md # Project documentation
+└── assets/ # (Optional) UI assets like logos or icons
+---
+
+## 🪄 Installation & Setup
+
+You can set up the project in **two ways**:
+
+---
+
+### 🧱 Option 1: Using Virtual Environment
+
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/<your-username>/web-data-extraction-summarization.git
+cd web-data-extraction-summarization
+
 
