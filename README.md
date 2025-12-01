@@ -2,7 +2,7 @@
 
 ### 🚀 Overview
 
-**Web Data Extraction and Summarization Tool (WDEST)** is an AI-powered application that extracts meaningful content from web pages and automatically generates concise summaries using a Large Language Model (LLM) hosted on **Groq**.  
+**Web Data Extraction and Summarization Tool** is an AI-powered application that extracts meaningful content from web pages and automatically generates concise summaries using a Large Language Model (LLM) hosted on **Groq**.  
 
 It provides a simple, interactive **Streamlit** interface where users can input a URL, extract the page data, and instantly view a summarized version of its content.  
 
