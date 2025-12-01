@@ -1,4 +1,4 @@
-# 🌐 Web Data Extraction and Summarization Tool (WDEST)
+# 🌐 Web Data Extraction and Summarization Tool
 
 ### 🚀 Overview
 
